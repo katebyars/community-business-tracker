@@ -7,6 +7,7 @@ public class Business {
     private String contact;
     private String hours;
     private String businessType;
+    private int id;
 
     public Business(String name, String contact, String hours, String businessType) {
         this.name = name;
@@ -67,5 +68,13 @@ public class Business {
 
     public void setBusinessType(String businessType) {
         this.businessType = businessType;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
